@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <style>
+    /* Tambahkan CSS untuk orientasi landscape pada border-wrapper */
+   
+
+    .border-wrapper {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.no-order {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 30px; /* Jarak antara logo dan nomor order */
+  /* border: 1px solid black; */
+  /* border-radius: 5px; */
+  padding: 8px 20px;
+  background-color: white;
+  
+}
+
+
+   
+    /* ... (CSS lainnya tetap sama) ... */
+  </style>
+</head>
+<body>
+  
+  <div class=" border-wrapper">
+    <div class="border border-black p-4">
+      <!-- Lebar lebih besar dari tinggi -->
+      <div class="no-order  flex justify-center items-center ">
+        <span>No Order : #123</span>
+      </div>
+      
+      <div class="logo my-0">
+        <div class="flex items-center justify-between border-dotted border border-black p-4">
+          <div class="flex items-center">
+            <img src="/assets/images/yoi.jpg" class="w-25 h-20" alt="">
+            <span class="text-sm">20/10/2023</span>
+          </div>
+          <div class="jne">
+            <img src="/assets/images/jne.png" class="w-20 h-10" alt="">
+          </div>
+        </div>
+      </div>
+
+
+      <div class="table-container">
+
+        <div class="service-name text-center my-0" > 
+          <h1>REG</h1>
+        </div>
+        <table class="w-full border-dotted border-black text-xs mt-10 mb-10">
+          <thead>
+              <tr>
+                  <th class="border p-2">Barcode</th>
+                  <th class="border p-2">No resi : 1234567890</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td class="border p-2 text-center">
+                      <div class="flex justify-center items-center">
+                          <img src="/assets/images/barcode2.png" class="w-20" alt="">
+                      </div>
+                  </td>
+                  <td class="border p-2 text-center">
+                      <div class="flex justify-center items-center">
+                          <img src="/assets/images/barcode.png" class="w-20" alt="">
+                      </div>
+                  </td>
+              </tr>
+              <!-- ... (Baris lain jika ada) ... -->
+          </tbody>
+      </table>
+    
+      
+        <table class="w-full border-dotted  border-black text-xs mt-4 text-center">
+          <!-- ... (Table Alamat Pengirim) ... -->
+          <thead>
+            <tr>
+                <th class="border p-2 ">Nama Pengirim</th>
+                <th class="border p-2 ">Alamat Penerima</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="border p-2">John Doe</td>
+                <td class="border p-2">
+                  <ul class="ml-4">
+                 <li>Nama :  HARI PURNOMO</li> 
+                 <li>No Telpon: 0877765545 </li> 
+                 <li>Alamat: PASAR MEONG </li> 
+                </ul>
+                </td>
+            </tr>
+           
+          
+        </tbody>
+        </table>
+
+        <table class="w-full border border-collapse mt-3 text-center text-xs">
+          <!-- ... (Table Detail Order) ... -->
+       
+            <tr>
+                <th class="border p-2">Nama Barang</th>
+                <th class="border p-2">SKU</th>
+                <th class="border p-2">variasi</th>
+                <th class="border p-2">Quantity</th>
+                <th class="border p-2">berat</th>
+               
+            </tr>
+        </thead>
+        <tbody>
+           
+            <tr>
+                <td class="p-2">sabuk</td>
+                <td class="p-2">SKU-1</td>
+                <td class="p-2">Merah</td>
+                <td class="p-2">23</td>
+                <td class="p-2">1 KG</td>
+            </tr>
+            <tr>
+                <td class="p-2">Panci</td>
+                <td class="p-2">SKU-1</td>
+                <td class="p-2">Merah</td>
+                <td class="p-2">23</td>
+                <td class="p-2">1 KG</td>
+            </tr>
+           
+          
+            <tr>
+                <td class="p-2">sabuk</td>
+                <td class="p-2">SKU-1</td>
+                <td class="p-2">Merah</td>
+                <td class="p-2">23</td>
+                <td class="p-2">1 KG</td>
+            </tr>
+            <tr>
+                <td class="p-2">Panci</td>
+                <td class="p-2">SKU-1</td>
+                <td class="p-2">Merah</td>
+                <td class="p-2">23</td>
+                <td class="p-2">1 KG</td>
+            </tr>
+           
+          
+        </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
