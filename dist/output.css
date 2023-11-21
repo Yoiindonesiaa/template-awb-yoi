@@ -64,6 +64,32 @@ body {
   /* 2 */
 }
 
+
+
+.logo-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.barcode {
+  margin-top: 9rem;
+  border-collapse: collapse;
+}
+
+.barcode th,
+.barcode td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+.barcode img {
+  max-width: 100%;
+  height: auto;
+}
+
 /*
 1. Add the correct height in Firefox.
 2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
@@ -701,7 +727,7 @@ video {
 }
 
 .w-32 {
-  width: 8rem;
+  width: 10rem;
 }
 
 .w-20 {
@@ -709,11 +735,11 @@ video {
 }
 
 .w-10 {
-  width: 2.5rem;
+  width: 1.2rem;
 }
 
 .w-5 {
-  width: 1.25rem;
+  width: 3.125rem;
 }
 
 .w-96 {
@@ -749,7 +775,7 @@ video {
 }
 
 .w-36 {
-  width: 9rem;
+  width:15.625rem;
 }
 
 .w-1 {
